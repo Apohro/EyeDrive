@@ -1,0 +1,100 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/saeon/protos/Altino.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/obstacles/protos/OilBarrel.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/RectangleArena.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.15729137162933307 -0.157416100277962 -0.9749254308839429 4.687793906505926
+  position -0.00920414307888119 -9.782320177176933 0.4538407213453918
+  follow "vehicle"
+  followType "Mounted Shot"
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+OilBarrel {
+  translation -1 -6.1 0.44
+}
+OilBarrel {
+  translation 1 -6 0.44
+  name "oil barrel(1)"
+}
+OilBarrel {
+  translation -1.3 -5.2 0.44
+  name "oil barrel(2)"
+}
+OilBarrel {
+  translation -1.7 -4.3 0.44
+  name "oil barrel(3)"
+}
+OilBarrel {
+  translation 1 -5 0.44
+  name "oil barrel(4)"
+}
+OilBarrel {
+  translation -2.3 -3.4 0.44
+  name "oil barrel(5)"
+}
+OilBarrel {
+  translation 0.5 -4 0.44
+  name "oil barrel(6)"
+}
+OilBarrel {
+  translation 0 -3 0.44
+  name "oil barrel(7)"
+}
+OilBarrel {
+  translation -2.9 -2.5 0.44
+  name "oil barrel(8)"
+}
+OilBarrel {
+  translation -0.6 -2.4 0.44
+  name "oil barrel(9)"
+}
+OilBarrel {
+  translation -1.3 -1.8 0.44
+  name "oil barrel(10)"
+}
+OilBarrel {
+  translation -1.8 -1.1 0.44
+  name "oil barrel(11)"
+}
+OilBarrel {
+  translation -3.4 -1.6 0.44
+  name "oil barrel(12)"
+}
+OilBarrel {
+  translation -3.76 -0.78 0.44
+  name "oil barrel(13)"
+}
+OilBarrel {
+  translation 4 6 0.44
+  name "oil barrel(14)"
+}
+OilBarrel {
+  translation 5 4 0.44
+  name "oil barrel(15)"
+}
+OilBarrel {
+  translation 6 2 0.44
+  name "oil barrel(16)"
+}
+OilBarrel {
+  translation 4 3 0.44
+  name "oil barrel(17)"
+}
+Altino {
+  translation 0 -9 0.0195401
+  rotation 4.15526e-05 -4.265127714332297e-05 0.9999999982270407 1.5599996938995748
+  controller "my_controller3"
+}
+RectangleArena {
+  floorSize 20 20
+  floorTileSize 1 1
+}
